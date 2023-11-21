@@ -1,0 +1,19 @@
+nav {
+    padding: 0 2rem;
+    color: white;
+    height: 100px;
+    background-color: rgb(12, 19, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 30px rgb(12, 19, 24);
+}
+img {
+    height: 40px;
+}
+a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    
+}
