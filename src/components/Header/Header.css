@@ -15,5 +15,8 @@ a{
     margin-left: 30px;
     text-decoration: none;
     color: white;
-    
+}
+
+a:hover {
+    color: #95A0A7;
 }
