@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Shop.css'
 import Product from '../Product/Product';
+import Cart from '../cart/Cart';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
@@ -19,7 +20,7 @@ const Shop = () => {
                 }
             </div>
             <div>
-                Order Summary 
+                <Cart></Cart>
             </div>
         </div>
     );
